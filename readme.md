@@ -1,4 +1,4 @@
-# Quantum Mechanical Keyboard Firmware (Let's Split)
+# Overview
 
 This is a let's split keyboard firmware based on the [tmk\_keyboard firmware](http://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers.
 
@@ -21,6 +21,13 @@ And you can get a firmware file named "lets_split_rev2_default.hex" on .build di
 https://gist.github.com/CampAsAChamp/e747d2b605c0c32923593b529f82ccdd
 
 you can get eeprom files on ./keyboards/lets_split.
+
+## Change keymaps from original (default)
+* Activate LED control keys to Adjust layer
+* Swap ESC and Ctrl
+* Assign Home, End, PageUp/Down, PrintScreen to Lower layer
+* Assign Caps to Raise layer
+* Delete COLEMAK, DVORAK layers
 
 ## Documentation
 
