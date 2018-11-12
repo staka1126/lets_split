@@ -1,10 +1,21 @@
-# Quantum Mechanical Keyboard Firmware
+# Quantum Mechanical Keyboard Firmware (Let's Split)
 
-This is a keyboard firmware based on the [tmk\_keyboard firmware](http://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers, and more specifically, the [OLKB product line](http://olkb.com), the [ErgoDox EZ](http://www.ergodox-ez.com) keyboard, and the [Clueboard product line](http://clueboard.co/).
+This is a let's split keyboard firmware based on the [tmk\_keyboard firmware](http://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers.
 
 ## Official website
 
 [http://qmk.fm](http://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+## How to build
+
+Clone this source code to your PC.  
+$git clone https://github.com/staka1126/lets_split.git  
+$cd lets_split/keyboards/lets_split/keymaps/default  
+$make
+
+## How to flash firmware (Windows)
+
+https://gist.github.com/CampAsAChamp/e747d2b605c0c32923593b529f82ccdd
 
 ## Documentation
 
