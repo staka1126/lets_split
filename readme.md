@@ -31,4 +31,4 @@ you can get eeprom files on ./keyboards/lets_split.
 
 ## Documentation
 
-[https://docs.qmk.fm](https://docs.qmk.fm) is hosted on [Gitbook](https://www.gitbook.com/book/qmk/firmware/details). You can request changes by making a fork and [pull request](https://github.com/staka1126/lets_split/pulls), or by clicking the "suggest an edit" link on any page of the Docs.
+[https://docs.qmk.fm](https://docs.qmk.fm) is hosted on [Gitbook](https://www.gitbook.com/book/qmk/firmware/details).
