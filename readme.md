@@ -6,6 +6,10 @@ This is a let's split keyboard firmware based on the [tmk\_keyboard firmware](ht
 
 [http://qmk.fm](http://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
 
+## Build environment (Ubuntu)
+
+$sudo apt-get install gcc unzip wget zip gcc-avr binutils-avr avr-libc dfu-programmer dfu-util gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
+
 ## How to build
 
 Clone this source code to your PC.  
