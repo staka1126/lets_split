@@ -20,8 +20,13 @@ $make
 
 And you can get a firmware file named "lets_split_rev2_default.hex" on .build directory.  
 
-## How to flash firmware (Windows)
+## How to flash firmware
 
+(Ubuntu)
+$sudo make avrdude
+  ---> reset
+
+(Windows)
 https://gist.github.com/CampAsAChamp/e747d2b605c0c32923593b529f82ccdd
 
 you can get eeprom files on ./keyboards/lets_split.
