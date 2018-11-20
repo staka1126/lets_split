@@ -20,13 +20,18 @@ $make
 
 And you can get a firmware file named "lets_split_rev2_default.hex" on .build directory.  
 
+## How to write EEPROM (Once)
+
+https://leico.github.io/TechnicalNote/QMK/write-vitamins-avrdude
+
+
 ## How to flash firmware
 
-(Ubuntu)
+(Ubuntu)  
 $sudo make avrdude
   ---> reset
 
-(Windows)
+(Windows)  
 https://gist.github.com/CampAsAChamp/e747d2b605c0c32923593b529f82ccdd
 
 you can get eeprom files on ./keyboards/lets_split.
