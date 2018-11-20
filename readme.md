@@ -6,6 +6,10 @@ This is a let's split keyboard firmware based on the [tmk\_keyboard firmware](ht
 
 [http://qmk.fm](http://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
 
+## Build environment (Ubuntu)
+
+$sudo apt-get install gcc unzip wget zip gcc-avr binutils-avr avr-libc dfu-programmer dfu-util gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
+
 ## How to build
 
 Clone this source code to your PC.  
@@ -16,8 +20,18 @@ $make
 
 And you can get a firmware file named "lets_split_rev2_default.hex" on .build directory.  
 
-## How to flash firmware (Windows)
+## How to write EEPROM (Once)
 
+https://leico.github.io/TechnicalNote/QMK/write-vitamins-avrdude
+
+
+## How to flash firmware
+
+(Ubuntu)  
+$sudo make avrdude
+  ---> reset
+
+(Windows)  
 https://gist.github.com/CampAsAChamp/e747d2b605c0c32923593b529f82ccdd
 
 you can get eeprom files on ./keyboards/lets_split.
