@@ -31,7 +31,7 @@ https://gist.github.com/CampAsAChamp/e747d2b605c0c32923593b529f82ccdd
 
 ## How to write EEPROM (Once)
 
-you can get eeprom files on ./quantum/keyboards/lets_split.
+you can get eeprom files on https://github.com/staka1126/lets_split/tree/master/quantum/split_common.
 
 If this is the first time you’re flashing the boards, you have to flash EEPROM
 
@@ -45,7 +45,7 @@ If this is the first time you’re flashing the boards, you have to flash EEPROM
 
 ## Change keymaps from original (default)
 
-See the below. 
+See the below.  
 https://github.com/staka1126/lets_split/blob/master/keyboards/lets_split/keymaps/default/keymap.c
 
 * Activate LED control keys to Adjust layer
