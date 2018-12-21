@@ -2,7 +2,9 @@
 
 This is a let's split keyboard firmware based on the [tmk\_keyboard firmware](http://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers.
 
-## Build environment (Ubuntu)
+## Build environment 
+
+OS : Ubuntu 
 
 $sudo apt-get install gcc unzip wget zip gcc-avr binutils-avr avr-libc dfu-programmer dfu-util gcc-arm-none-eabi binutils-arm-none-eabi libnewlib-arm-none-eabi
 
@@ -16,11 +18,13 @@ $make
 
 And you can get a firmware file named "lets_split_rev2_default.hex" on .build directory.  
 
-## flush your firmware
+## Flush firmware
 
-(Ubuntu)  
-$sudo make avrdude
-  ---> reset
+OS : Ubuntu 
+
+$sudo make avrdude 
+
+  ---> reset (Adjust + Q)
 
 (Windows)  
 https://gist.github.com/CampAsAChamp/e747d2b605c0c32923593b529f82ccdd
@@ -40,6 +44,10 @@ If this is the first time you’re flashing the boards, you have to flash EEPROM
 8. Do the same For the right hand, but change the file to eeprom-righthand.eep
 
 ## Change keymaps from original (default)
+
+See the below. 
+https://github.com/staka1126/lets_split/blob/master/keyboards/lets_split/keymaps/default/keymap.c
+
 * Activate LED control keys to Adjust layer
 * Swap ESC and Ctrl
 * Assign Home, End, PageUp/Down, PrintScreen to Lower layer
